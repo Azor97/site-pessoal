@@ -207,6 +207,7 @@ svg {
     .conteudo{
         margin-bottom: 15px;
         margin-top: 0;
+        overflow: hidden;
     }
     .conteudo-principal {
         display: flex;
