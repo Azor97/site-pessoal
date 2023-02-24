@@ -37,6 +37,7 @@ body {
     overflow: hidden;
 }
 
+
 .conteudo-principal-titulo {
     font-size: 50px;
     text-transform: uppercase;
@@ -52,10 +53,14 @@ body {
     margin: auto;
     align-items: center;
     justify-content: space-between;
+    padding: 15px 15px 0px 15px;
 }
 
 img {
     max-width: 50vh;
+    position: static;
+    bottom: 0;
+    padding: 0px;
 }
 
 svg {
