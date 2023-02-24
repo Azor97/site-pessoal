@@ -25,9 +25,11 @@ html {
 }
 
 body {
+    position: relative;
     font-family: var(--font1, sans-serif);
     background-color: rgb(228, 228, 228);
-    overflow-x: hidden;
+    height: 100%;
+    min-height: 100%;
     /* background: url(imagens/bg-1.jpg) no-repeat center center;
     background-size: cover;
     height: 92vh; */
@@ -225,16 +227,21 @@ svg {
     
 }
 
-footer {
+footer{
     position: absolute;
     bottom: 0px;
     width: 100%;
-    left: 0px;
-    right: 0px;
-    background: #23232e;
-    padding: 15px;
-    color: white;
     text-align: center;
 }
+
+.rodape {
+    background-color: var(--cor3);
+    color: white;
+    position: relative;
+    bottom:0;
+    width:100%;
+    margin: auto auto;
+    padding: 10px 5px;
+  }
 
 
