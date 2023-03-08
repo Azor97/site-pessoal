@@ -210,7 +210,6 @@ svg {
         height: 8vh;
         
     }
-
     .logo{
         font-size: 36px;
         margin-top: 15px;
@@ -229,7 +228,6 @@ svg {
     
     #burguer:hover{
         color: var(--cor3);
-        opacity: 0.7;
     }
     .mobile-container{
         text-align: center;
@@ -305,7 +303,6 @@ svg {
     
     #burguer:hover{
         color: var(--cor3);
-        opacity: 0.7;
     }
     
     .mobile-container{
@@ -380,7 +377,6 @@ svg {
     
     #burguer:hover{
         color: var(--cor3);
-        opacity: 0.7;
     }
 
     .mobile-container{
